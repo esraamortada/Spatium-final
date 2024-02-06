@@ -10,8 +10,8 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    /* row-gap: 50px; */
-    background-color:rgb(255, 255, 255);
+    row-gap: 100px;
+    background-color:rgb(235, 228, 228);
     
 }
 main{
@@ -20,7 +20,7 @@ main{
     row-gap: 70px;
 }
 .hr{
-    width: 80%;
+    width: 75%;
     height: 1px;
     margin: auto;
     background-color: rgb(201, 201, 201);
@@ -31,11 +31,19 @@ main{
 
     background-color:  rgb(201, 201, 201);
 }
+hr{
+    width: 1px;
+    height: 30px;
+    background-color: #000;
+   
+
+}
 /*navbarrrrrr style////////////////////////////////////////////*/
 
 
 nav{
-    background-color: rgb(25, 25, 79);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
   
 }
 .nav{
@@ -43,14 +51,14 @@ nav{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 75%;
     margin: auto;
    
 
     padding: 20px 0px;
 
     justify-content: space-between;
-    color: rgb(240, 237, 237);
+    color: rgb(46, 44, 44);
     background-color:transparent;
    
    
@@ -65,7 +73,7 @@ nav{
     /* flex-wrap: wrap; */
 }
 .nav-list {
-    width: 50%;
+    width: 60%;
     display: flex;
   
     align-items: center;
@@ -80,7 +88,7 @@ nav{
 
 
 .nav button{
-    width: 150px;
+    width: 120px;
     height: 40px;
     border-radius: 5px;
     background-color: rgb(47, 66, 233);
@@ -97,7 +105,8 @@ nav{
 }
 a{
     text-decoration: none;
-    color:  rgb(240, 237, 237);
+    color:  rgb(22, 21, 21);
+    font-weight: 600;
 }
 
 @media  screen and (max-width: 1200px) and (min-width:992px){
@@ -112,6 +121,9 @@ a{
         position: relative;
  
     
+    }
+    hr{
+        display: none;
     }
     .nav-list ul{
         display: flex;
@@ -161,6 +173,9 @@ a{
     a{ 
         color: #000;
     }
+ 
+   
+
    
 
 }
@@ -175,6 +190,9 @@ a{
         position: relative;
  
     
+    }
+    hr{
+        display: none;
     }
     .nav-list ul{
         display: flex;
@@ -250,6 +268,9 @@ a{
         margin-top: 20px;
       
     }
+    hr{
+        display: none;
+    }
     .nav-list{
         display: none;
         position: absolute;
@@ -304,6 +325,9 @@ a{
         position: relative;
  
     
+    }
+    hr{
+        display: none;
     }
     .nav-list ul{
         display: flex;
@@ -359,651 +383,11 @@ a{
 
 }
 
-/*headerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
-.header{
-    background-color: rgb(25, 25, 79);
-    color: rgb(255, 255, 255);
-    padding: 60px 0px;
-}
-.header-container{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    column-gap: 100px;
-    justify-content: center;
-}
-.content{
-    padding: 30px 0px 0px 0px;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 26px;
-}
-.content h2{
-    font-size: 38px;
-}
-.content p{
-    color: rgb(229, 224, 224);
-    line-height: 26px;
-}
-.link{
-    display: flex;
-    column-gap: 16px;
-    color: rgb(29, 186, 29);
-    align-items: center;
-}
-.link a{
-    color: rgb(29, 186, 29);
-    font-weight: 700;
-}
-video{
-    width: 40%;
-    border-radius: 10px;
-}
-@media  screen and (max-width: 1200px) and (min-width:992px){
-    .header-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .content{
-        width: 100%;
-    } 
-    video{
-        width: 90%;
-        margin: auto;
-    }
-
-
-}
-@media  screen and (max-width: 992px) and (min-width:786px){
-    .header-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .content{
-        width: 100%;
-    } 
-    video{
-        width: 90%;
-        margin: auto;
-    }
-
-   
-
-}
-@media  screen and (max-width: 786px) and (min-width:600px) {
-
-    .header-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .content{
-        width: 100%;
-    } 
-    video{
-        width: 90%;
-        margin: auto;
-    }
-
-    
-}
-@media  screen and (max-width: 600px){
-    .header-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .content{
-        width: 100%;
-    } 
-    video{
-        width: 90%;
-        margin: auto;
-    }
-
-
-
-}
-/*logosssssssssssssssssssssssssssss*/
-
-.logos{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    /* padding: 70px 0px; */
-}
-.logo img{
-    width: 80%;
-
-
-}
-.logo{
-    width: 16%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
-
-@media  screen and (max-width: 1200px) and (min-width:992px){
-    .logos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        margin: auto;
-    }
-    .logo{
-        width: 40%;
-        margin: auto;
-     
-    }
-}
-@media  screen and (max-width: 992px) and (min-width:786px){
-    .logos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        margin: auto;
-    }
-    .logo{
-        width: 40%;
-        margin: auto;
-     
-    }
-
-}
-@media  screen and (max-width: 786px) and (min-width:600px) {
-
-    .logos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        margin: auto;
-    }
-    .logo{
-        width: 30%;
-        margin: auto;
-     
-    }
-    
-}
-@media  screen and (max-width: 600px){
-    
-.logos{
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
-    margin: auto;
-}
-.logo{
-    width: 100%;
-    margin: auto;
- 
-}
-
-}
-/*instructionsssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
-
-.instructions{
-    width: 80%;
-    margin: auto;
-    /* padding: 70px 0px 0px; */
-}
-.instruction-container{
-    display: flex;
-    justify-content: space-between;
-}
-.instruction{
-    width: 30%;
-    display: flex;
-    column-gap: 16px;
-}
-.instruction-text{
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
-}
-.instruction-text h4{
-    font-size: 22px;
-}
-.instruction-text p{
-    line-height: 26px;
-}
-.instruction img{
-    height: 30px;
-    width: 30px;
-}
-
-@media  screen and (max-width: 1200px) and (min-width:992px){
-    .instruction-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        row-gap: 50px;
-    }
-    .instruction{
-        width: 45%;
-        margin: auto;
-    }
-
-}
-@media  screen and (max-width: 992px) and (min-width:786px){
-    .instruction-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        row-gap: 50px;
-    }
-    .instruction{
-        width: 45%;
-        margin: auto;
-    }
-
-
-}
-@media  screen and (max-width: 786px) and (min-width:600px) {
-    .instruction-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 40px;
-    }
-    .instruction{
-        width: 90%;
-        margin: auto;
-    }
-
-
-    
-}
-@media  screen and (max-width: 600px){
-    .instruction-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 40px;
-    }
-    .instruction{
-        width: 90%;
-        margin: auto;
-    }
-
-}
-
-/*Track your Progresssssssssssssssssssssssssss*/
-
-
-.track{
-   
-    color: rgb(0, 0, 0);
-    padding: 60px 0px;
-}
-.track-container{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    column-gap: 100px;
-    justify-content: center;
-}
-.track-content{
-    padding: 80px 0px 0px 0px;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 26px;
-    /* justify-content: center; */
-}
-.track-content h2{
-    font-size: 32px;
-}
-.track-content p{
-    color: rgb(165, 160, 160);
-    line-height: 26px;
-}
-.track-link{
-    display: flex;
-    column-gap: 16px;
-    color:rgb(47, 66, 233);
-    align-items: center;
-}
-.track-link a{
-    color:rgb(47, 66, 233);
-    font-weight: 700;
-}
-.track img{
-    width: 40%;
-    border-radius: 10px;
-}
-@media  screen and (max-width: 1200px) and (min-width:992px){
-    .track-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .track-content{
-        width: 100%;
-    } 
-    .track img{
-        width: 90%;
-        margin: auto;
-    }
-
-
-}
-@media  screen and (max-width: 992px) and (min-width:786px){
-    .track-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .track-content{
-        width: 100%;
-    } 
-    .track img{
-        width: 90%;
-        margin: auto;
-    }
-
-   
-
-}
-@media  screen and (max-width: 786px) and (min-width:600px) {
-
-    .track-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .track-content{
-        width: 100%;
-    } 
-    .track img{
-        width: 90%;
-        margin: auto;
-    }
-
-    
-}
-@media  screen and (max-width: 600px){
-    .track-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .track-content{
-        width: 100%;
-    } 
-    .track img{
-        width: 90%;
-        margin: auto;
-    }
-
-
-
-}
-
-
-
-/*Understand your vistorsssssssssssssss*/
-
-
-
-
-.understand{
-   
-    color: rgb(0, 0, 0);
-    /* padding: 60px 0px; */
-}
-.understand-container{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    column-gap: 100px;
-    justify-content: center;
-}
-.understand-content{
-    padding: 80px 0px 0px 0px;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 26px;
-    /* justify-content: center; */
-}
-.understand-content h2{
-    font-size: 32px;
-}
-.understand-content p{
-    color: rgb(165, 160, 160);
-    line-height: 26px;
-}
-.understand-link{
-    display: flex;
-    column-gap: 16px;
-    color:rgb(47, 66, 233);
-    align-items: center;
-}
-.understand-link a{
-    color:rgb(47, 66, 233);
-    font-weight: 700;
-}
-.understand img{
-    width: 40%;
-    border-radius: 10px;
-}
-@media  screen and (max-width: 1200px) and (min-width:992px){
-    .understand-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .understand-content{
-        width: 100%;
-    } 
-    .understand img{
-        width: 90%;
-        margin: auto;
-    }
-
-
-}
-@media  screen and (max-width: 992px) and (min-width:786px){
-    .track-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .understand-content{
-        width: 100%;
-    } 
-    .understand img{
-        width: 90%;
-        margin: auto;
-    }
-
-   
-
-}
-@media  screen and (max-width: 786px) and (min-width:600px) {
-
-    .understand-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .understand-content{
-        width: 100%;
-    } 
-    .understand img{
-        width: 90%;
-        margin: auto;
-    }
-
-    
-}
-@media  screen and (max-width: 600px){
-    .understand-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .understand-content{
-        width: 100%;
-    } 
-    .understand img{
-        width: 90%;
-        margin: auto;
-    }
-
-
-
-}
-
-
-/*make your customer happyyyyyyyyyyyyyyyyyyyyyy*/
-
-
-
-
-
-.make{
-   
-    color: rgb(0, 0, 0);
-    /* padding: 60px 0px; */
-}
-.make-container{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    column-gap: 100px;
-    justify-content: center;
-}
-.make-content{
-    padding: 80px 0px 0px 0px;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 26px;
-    /* justify-content: center; */
-}
-.make-content h2{
-    font-size: 32px;
-}
-.make-content p{
-    color: rgb(165, 160, 160);
-    line-height: 26px;
-}
-.make-link{
-    display: flex;
-    column-gap: 16px;
-    color:rgb(47, 66, 233);
-    align-items: center;
-}
-.make-link a{
-    color:rgb(47, 66, 233);
-    font-weight: 700;
-}
-.imgs-container{
-    width: 40%;
-    border-radius: 10px;
-    display: flex;
-}
-.img1{
-    width: 95%;
-    margin: auto;
-    border-radius: 10px;
-}
-.img2{
-    width: 95%;
-    margin: auto;
-    height: 300px;
-    border-radius: 10px;
-}
-.inner-imgs{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
-.inner-imgs:nth-child(1){
-    margin-top: 30px;
-}
-@media  screen and (max-width: 1200px) and (min-width:992px){
-    .make-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .make-content{
-        width: 100%;
-    } 
-    .imgs-container{
-        width: 90%;
-        margin: auto;
-    }
-
-
-}
-@media  screen and (max-width: 992px) and (min-width:786px){
-    .make-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .make-content{
-        width: 100%;
-    } 
-    .imgs-container{
-        width: 90%;
-        margin: auto;
-    }
-
-   
-
-}
-@media  screen and (max-width: 786px) and (min-width:600px) {
-
-    .make-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .make-content{
-        width: 100%;
-    } 
-    .imgs-container{
-        width: 90%;
-        margin: auto;
-    }
-
-    
-}
-@media  screen and (max-width: 600px){
-    .make-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-    }
-    .make-content{
-        width: 100%;
-    } 
-    .imgs-container{
-        width: 90%;
-        margin: auto;
-    }
-
-
-
-}
 
 
 /*pricing and planssssssssssssssssssssssssssssssssssssss*/
 .pricing{
-    width: 80%;
+    width: 75%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -1060,7 +444,7 @@ video{
     justify-content: space-around;
 }
 .pricing-card{
-    width: 30%;
+    width: 28%;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
@@ -1173,60 +557,74 @@ video{
 
 
 
-/*feed backkkkkkkkkkkkkkkkkkkkkkki*/
 
-.feedback-container{
-    width: 80%;
+
+/*instructionsssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+
+.instruction-header{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    text-align: center;
+}
+
+.instructions{
+    width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 70px;
+    flex-direction: column;
+    row-gap: 40px;
+    /* padding: 70px 0px 0px; */
 }
-
-.feedback{
+.instruction-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    justify-content: space-between;
+}
+.instruction{
     width: 30%;
     display: flex;
-    flex-direction: column;
-    row-gap: 16px;
+    column-gap: 16px;
 }
-.feedback-text{
+.instruction-text{
     display: flex;
     flex-direction: column;
     row-gap: 16px;
 }
-.feedback-text h4{
+.instruction-text h4{
     font-size: 22px;
 }
-.feedback-text p{
+.instruction-text p{
     line-height: 26px;
-    font-weight: 700;
 }
-.feedback img{
+.instruction img{
     height: 30px;
     width: 30px;
 }
 
 @media  screen and (max-width: 1200px) and (min-width:992px){
-    .feedback-container{
+    .instruction-container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         row-gap: 50px;
     }
-    .feedback{
+    .instruction{
         width: 45%;
         margin: auto;
     }
 
 }
 @media  screen and (max-width: 992px) and (min-width:786px){
-    .feedback-container{
+    .instruction-container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         row-gap: 50px;
     }
-    .feedback{
+    .instruction{
         width: 45%;
         margin: auto;
     }
@@ -1234,12 +632,12 @@ video{
 
 }
 @media  screen and (max-width: 786px) and (min-width:600px) {
-    .feedback-container{
+    .instruction-container{
         display: flex;
         flex-direction: column;
         row-gap: 40px;
     }
-    .feedback{
+    .instruction{
         width: 90%;
         margin: auto;
     }
@@ -1248,12 +646,12 @@ video{
     
 }
 @media  screen and (max-width: 600px){
-    .feedback-container{
+    .instruction-container{
         display: flex;
         flex-direction: column;
         row-gap: 40px;
     }
-    .feedback{
+    .instruction{
         width: 90%;
         margin: auto;
     }
@@ -1282,7 +680,7 @@ footer{
 
     display: flex;
 
-    width: 80%;
+    width: 75%;
     margin: auto;
     padding-bottom: 70px;
     /* justify-content: center; */
@@ -1401,7 +799,7 @@ footer{
     
     margin: auto;
     padding: 15px 0px;
-    width: 80%;
+    width: 75%;
     justify-content: space-between;
 }
 .social-icons{
