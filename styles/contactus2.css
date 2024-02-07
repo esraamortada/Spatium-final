@@ -10,8 +10,8 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    row-gap: 70px;
-    background-color:rgb(235, 228, 228);
+    /* row-gap: 70px; */
+    background-color:rgb(255, 255, 255);
     
 }
 main{
@@ -44,7 +44,7 @@ hr{
 nav{
     width: 100%;
     background-color: rgb(255, 255, 255);
-  
+    
 }
 .nav{
     display: flex;
@@ -388,8 +388,10 @@ a{
 
 .contactus-container{
     display: flex;
-    column-gap: 140px;
+    column-gap: 100px;
     justify-content: center;
+    position: relative;
+    top: 400px;
 
 }
 .contactus-header{
@@ -399,6 +401,10 @@ a{
     width: 60%;
     margin: auto;
     text-align: center;
+    margin-top: 70px;
+    margin-bottom: -400px;
+    
+ 
 }
 .contactus-header h2{
     font-size: 40px;
@@ -470,12 +476,19 @@ label{
     flex-direction: column;
     row-gap: 50px;
     width: 40%;
-    justify-content: center;
+   margin-top: 30px;
 }
 .inner-info{
     display: flex;
-    flex-direction: column;
-    row-gap: 26px;
+
+    column-gap: 16px;
+
+    
+}
+.inner-info i{
+    font-size: 20px;
+    color:  rgb(55, 55, 190);
+    margin-top: 6px;
 }
 .inner-info h4{
     font-size: 24px;
@@ -496,7 +509,7 @@ label{
     }
     .contactus-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         row-gap: 40px;
     }
     .form{
@@ -512,7 +525,7 @@ label{
     }
     .contactus-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         row-gap: 40px;
     }
     .form{
@@ -528,7 +541,7 @@ label{
     }
     .contactus-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         row-gap: 40px;
     }
     .form{
@@ -540,6 +553,11 @@ label{
     }
 }
 
+.background{
+    background-image: url(../images/pexels-lara-jameson-8828320.jpg);
+    background-size: cover;
+    height: 60vh;
+}
 
 /*footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
 footer{

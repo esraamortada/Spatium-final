@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,300;1,300&family=Roboto&display=swap');
 *{
     padding:0px;
@@ -11,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: 70px;
-    background-color:rgb(235, 228, 228);
+    background-color:rgb(255, 255, 255);
     
 }
 main{
@@ -44,7 +45,7 @@ hr{
 nav{
     width: 100%;
     background-color: rgb(255, 255, 255);
-  
+    
 }
 .nav{
     display: flex;
@@ -384,161 +385,331 @@ a{
 }
 
 
-/*contact ussssssssssssssssssssssssssssssssssssssssssssssssss*/
+/*ckeck out sectionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
 
-.contactus-container{
-    display: flex;
-    column-gap: 140px;
-    justify-content: center;
-
-}
-.contactus-header{
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
-    width: 60%;
-    margin: auto;
-    text-align: center;
-}
-.contactus-header h2{
-    font-size: 40px;
-    font-weight: 900;
-}
-.contactus-header p{
-    line-height: 26px;
-}
-.contact-us{
+.checkOut{
     width: 75%;
     margin: auto;
     display: flex;
     flex-direction: column;
     row-gap: 70px;
 }
-.form{
-    width: 380px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
-    padding: 30px 0px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 130px;
-   
-}
-
-
-form{
-    display: flex;
-    flex-direction: column;
-    row-gap: 32px;
-    width: 90%;
-    margin: auto;
-}
-
-.input{
+.checkOut-header{
     display: flex;
     flex-direction: column;
     row-gap: 16px;
+    text-align: center;
+}
+.checkOut-header h2{
+    font-size: 40px;
+
+}
+
+
+
+.form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
+    width: 500px;
+    padding: 20px 0px;
+   
 }
 label{
-    font-size: 22px;
-    font-size: 700;
-}
- form input{
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    border: 1px solid rgb(197, 196, 196);
-    padding: 5px 20px;
-}
-.form button{
-    width: 90%;
-    height: 60px;
-    background-color: rgb(55, 55, 190);
-    border: none;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    border-radius: 10px;
-    margin: auto;
 }
-
-
-
-.info{
+.inner-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+form{
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     row-gap: 50px;
-    width: 40%;
-    justify-content: center;
+    
 }
-.inner-info{
+form h4{
+    font-size: 21px;
+}
+.input{
     display: flex;
     flex-direction: column;
-    row-gap: 26px;
+    row-gap: 13px;
 }
-.inner-info h4{
-    font-size: 24px;
-    font-weight: 700;
+.input input,select{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    padding: 5px 15px;
+
 }
-.inner-text{
+.radio{
+    width: 100%;
+    /* height: 50px; */
+    border-radius: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+}
+.credit{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+.imgs-container img{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+.imgs-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+.input2{
+    display: flex;
+   justify-content: space-between;
+}
+.input2 input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    padding: 5px 15px;
+
+
+}
+.input img{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.input-inner{
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    width: 47%;
+    row-gap: 13px;
 }
-@media  screen and (max-width: 1200px) and (min-width:992px){
+form button{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(47, 66, 233);
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:  rgb(240, 237, 237);
+    font-size: 16px;
+    padding: 5px;
   
 
+ 
 }
-@media  screen and (max-width: 992px) and (min-width:786px){
-    .contactus-header {
-        width: 100%;
-    }
-    .contactus-container{
+form p{
+    font-size: 14px;
+}
+form span{
+    color: rgb(47, 66, 233);
+    font-size: 14px;
+}
+
+
+
+
+.checkout-container{
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*oder formmmmmmmmmmmmmm*/
+
+.order-form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
+    width: 350px;
+    padding: 20px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 17px;
+}
+.item{
+  width: 100%;
+  border: 1px solid rgb(141, 140, 140);
+  border-radius: 10px;
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  padding: 5px 10px ;
+  justify-content: space-between ;
+}
+.item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.item-text{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    row-gap: 10px;
+    
+}
+.item-text>p{
+    font-size: 18px;
+    font-weight: 900;
+}
+.item-price{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.order-form button{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(47, 66, 233);
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:  rgb(240, 237, 237);
+    font-size: 16px;
+    padding: 5px;
+  
+
+ 
+
+}
+.order-form>p{
+
+    font-weight: 600;
+}
+.item i{
+    color: rgb(199, 199, 199);
+    font-size: 14px;
+}
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+    .checkout-container{
         display: flex;
         flex-direction: column;
-        row-gap: 40px;
+        row-gap: 60px;
+    }
+    .order-form{
+        width:100%;
+        margin: auto;
+        height: auto;
     }
     .form{
-        width: 100%;
+        width:100%;
         margin: auto;
     }
+ 
 
+}
+@media  screen and (max-width: 992px) and (min-width:786px) {
+
+    .checkout-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    .order-form{
+        width:100%;
+        margin: auto;
+        height: auto;
+    }
+    .form{
+        width:100%;
+        margin: auto;
+    }
+ 
+
+  
 }
 @media  screen and (max-width: 786px) and (min-width:600px) {
  
-    .contactus-header {
-        width: 100%;
-    }
-    .contactus-container{
+    .checkout-container{
         display: flex;
         flex-direction: column;
-        row-gap: 40px;
+        row-gap: 60px;
+    }
+    .order-form{
+        width:100%;
+        margin: auto;
+        height: auto;
     }
     .form{
-        width: 100%;
+        width:100%;
         margin: auto;
     }
-    
+ 
+ 
 
 }
 @media  screen and (max-width: 600px){
-    .contactus-header {
-        width: 100%;
-    }
-    .contactus-container{
+    .checkout-container{
         display: flex;
         flex-direction: column;
-        row-gap: 40px;
+        row-gap: 60px;
+    }
+    .order-form{
+        width:100%;
+        margin: auto;
+        height: auto;
     }
     .form{
-        width: 100%;
+        width:100%;
         margin: auto;
     }
-    .info{
-        width: 100%;
-    }
+ 
+  
 }
+
 
 
 /*footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/

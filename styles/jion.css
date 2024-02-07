@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,300;1,300&family=Roboto&display=swap');
 *{
     padding:0px;
@@ -10,8 +11,8 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    row-gap: 70px;
-    background-color:rgb(235, 228, 228);
+    /* row-gap: 70px; */
+    background-color:rgb(255, 255, 255);
     
 }
 main{
@@ -44,7 +45,7 @@ hr{
 nav{
     width: 100%;
     background-color: rgb(255, 255, 255);
-  
+    
 }
 .nav{
     display: flex;
@@ -384,161 +385,252 @@ a{
 }
 
 
-/*contact ussssssssssssssssssssssssssssssssssssssssssssssssss*/
+/*jionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
 
-.contactus-container{
-    display: flex;
-    column-gap: 140px;
-    justify-content: center;
-
-}
-.contactus-header{
+.jion-header{
+    width: 50%;
+    margin: auto;
+    text-align: center;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    width: 60%;
-    margin: auto;
-    text-align: center;
+    padding: 70px 0px 0px;
 }
-.contactus-header h2{
+.jion-header h2{
     font-size: 40px;
     font-weight: 900;
 }
-.contactus-header p{
+.jion-header p{
     line-height: 26px;
 }
-.contact-us{
+
+.video-container{
+background-image: url('../images/pexels-fauxels-3184291.jpg');
+background-size: cover;
+background-position: 50%;
+padding: 300px 0px;
+
+}
+
+.circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(47, 66, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.circle i{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+
+     
+}
+@media  screen and (max-width: 992px) and (min-width:786px) {
+
+    .jion-header{
+        width: 75%;
+    }
+}
+@media  screen and (max-width: 786px) and (min-width:600px) {
+ 
+    .jion-header{
+        width: 75%;
+    }
+}
+
+
+@media  screen and (max-width: 600px){
+  
+    .jion-header{
+        width: 75%;
+    }
+}
+
+
+/* why to jion usssssssssssss*/
+
+.why{
     width: 75%;
     margin: auto;
     display: flex;
     flex-direction: column;
     row-gap: 70px;
 }
-.form{
-    width: 380px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
-    padding: 30px 0px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 130px;
-   
-}
-
-
-form{
-    display: flex;
-    flex-direction: column;
-    row-gap: 32px;
-    width: 90%;
+.why-header{
+    width: 60%;
     margin: auto;
-}
-
-.input{
+    text-align: center;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
 }
-label{
-    font-size: 22px;
-    font-size: 700;
+.why-header h2{
+    font-size: 36px;
+
 }
- form input{
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    border: 1px solid rgb(197, 196, 196);
-    padding: 5px 20px;
-}
-.form button{
-    width: 90%;
-    height: 60px;
-    background-color: rgb(55, 55, 190);
-    border: none;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 10px;
-    margin: auto;
+.why-header p{
+    line-height: 26px;
 }
 
 
-
-.info{
+.items-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: space-between;
+}
+.item{
+    width: 28%;
+    display: flex;
+    column-gap: 16px;
+}
+.item img{
+    height:30px;
+    width: 50px;
+}
+.item-text{
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
-    width: 40%;
-    justify-content: center;
+    row-gap: 16px;
 }
-.inner-info{
-    display: flex;
-    flex-direction: column;
-    row-gap: 26px;
+.item-text p{
+    line-height: 26px;
 }
-.inner-info h4{
-    font-size: 24px;
-    font-weight: 700;
-}
-.inner-text{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
-@media  screen and (max-width: 1200px) and (min-width:992px){
-  
 
+
+
+
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+
+    .item{
+        width: 45%;
+     }
+    
 }
-@media  screen and (max-width: 992px) and (min-width:786px){
-    .contactus-header {
+@media  screen and (max-width: 992px) and (min-width:786px) {
+
+    .item{
+        width: 45%;
+     }
+     .why-header {
         width: 100%;
-    }
-    .contactus-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 40px;
-    }
-    .form{
-        width: 100%;
-        margin: auto;
-    }
-
+    } 
 }
 @media  screen and (max-width: 786px) and (min-width:600px) {
- 
-    .contactus-header {
+ .item{
+    width: 45%;
+ }
+ .why-header {
+    width: 100%;
+} 
+}
+@media  screen and (max-width: 600px){
+    .why-header {
         width: 100%;
-    }
-    .contactus-container{
-        display: flex;
-        flex-direction: column;
-        row-gap: 40px;
-    }
-    .form{
-        width: 100%;
-        margin: auto;
-    }
+    } 
+.items-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.item{
+    width: 100%;
+}
+}
+
+
+/* Current Job oppeningggggggggggggggggggggggggggggggg*/
+
+.current-jobs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    background-color: gainsboro;
+    padding: 70px 0px;
+
+}
+
+.current-jobs h2{
+    font-size: 34px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.job{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.job:hover i{
+    color: rgb(47, 66, 233);
+}
+.job i{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.job-text{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.job-text h4{
+    font-size: 19px;
+}
+.job-text p{
+    font-size: 14px;
+    color: rgb(204, 200, 200);
+}
+.jobs-container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+
+
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+
     
+}
+@media  screen and (max-width: 992px) and (min-width:786px) {
+
+   
+}
+@media  screen and (max-width: 786px) and (min-width:600px) {
 
 }
 @media  screen and (max-width: 600px){
-    .contactus-header {
-        width: 100%;
-    }
-    .contactus-container{
+    .job{
         display: flex;
         flex-direction: column;
-        row-gap: 40px;
-    }
-    .form{
-        width: 100%;
-        margin: auto;
-    }
-    .info{
-        width: 100%;
+        row-gap: 22px;
     }
 }
+
+
+
+
+
 
 
 /*footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
