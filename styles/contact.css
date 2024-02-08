@@ -156,10 +156,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       
         
         
     
@@ -225,11 +222,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+    
         
     
     }
@@ -292,11 +285,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+     
         
     
     }
@@ -360,10 +349,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      
         
         
     
@@ -500,7 +486,8 @@ label{
         row-gap: 40px;
     }
     .form{
-        width: 100%;
+        width: 80%;
+        transition: width 2s;
         margin: auto;
     }
 
@@ -516,7 +503,8 @@ label{
         row-gap: 40px;
     }
     .form{
-        width: 100%;
+        width: 80%;
+        transition: width 2s;
         margin: auto;
     }
     
@@ -533,6 +521,7 @@ label{
     }
     .form{
         width: 100%;
+        transition: width 2s;
         margin: auto;
     }
     .info{

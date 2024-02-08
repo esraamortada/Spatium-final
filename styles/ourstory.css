@@ -155,10 +155,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       
         
         
     
@@ -224,10 +221,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      
         
         
     
@@ -291,11 +285,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+       
         
     
     }
@@ -359,11 +349,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+     
         
     
     }
@@ -537,12 +523,12 @@ a{
 }
 .img1{
     width: 95%;
-    margin: auto;
+    
     border-radius: 10px;
 }
 .img2{
     width: 95%;
-    margin: auto;
+    
     height: 300px;
     border-radius: 10px;
 }
@@ -563,6 +549,7 @@ a{
     }
     .skills-content{
         width: 100%;
+        padding: 0px;
     } 
     .imgs-container{
         width: 90%;
@@ -579,6 +566,7 @@ a{
     }
     .skills-content{
         width: 100%;
+        padding: 0px;
     } 
     .imgs-container{
         width: 90%;
@@ -597,6 +585,7 @@ a{
     }
     .skills-content{
         width: 100%;
+        padding: 0px;
     } 
     .imgs-container{
         width: 90%;
@@ -613,11 +602,28 @@ a{
     }
     .skills-content{
         width: 100%;
+       
+        padding: 0px;
     } 
     .imgs-container{
-        width: 90%;
+        width: 100%;
         margin: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
     }
+    .inner-imgs{
+        width: 100%;
+       
+        transition: width 1s;
+    }
+    .img1{
+        width: 100%;
+    }
+    .img2{
+        width: 100%;
+    }
+    
 
 
 
@@ -817,7 +823,7 @@ footer{
  
     flex-wrap: wrap;
     row-gap: 32px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
   }
  
   .link-list{
@@ -839,7 +845,7 @@ footer{
      
         flex-wrap: wrap;
         row-gap: 32px;
-        /* justify-content: space-between; */
+        justify-content: space-between;
     
       }
      

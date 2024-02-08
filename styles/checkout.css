@@ -157,10 +157,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      
         
         
     
@@ -226,10 +223,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
         
         
     
@@ -293,10 +287,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
         
         
     
@@ -361,10 +352,7 @@ a{
  
     .nav .icon{
         display: block;
-        width: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       
         
         
     
@@ -488,7 +476,7 @@ form h4{
 
 }
 .input img{
-    width: 50px;
+    width: 40px;
     height: 30px;
     border-radius: 5px;
     position: absolute;
@@ -641,11 +629,14 @@ form span{
     }
     .order-form{
         width:100%;
+
         margin: auto;
         height: auto;
     }
+
     .form{
         width:100%;
+     
         margin: auto;
     }
  
@@ -661,10 +652,13 @@ form span{
     .order-form{
         width:100%;
         margin: auto;
+     
         height: auto;
     }
     .form{
         width:100%;
+      
+
         margin: auto;
     }
  
@@ -681,10 +675,12 @@ form span{
     .order-form{
         width:100%;
         margin: auto;
+       
         height: auto;
     }
     .form{
         width:100%;
+      
         margin: auto;
     }
  
@@ -699,12 +695,22 @@ form span{
     }
     .order-form{
         width:100%;
+       
         margin: auto;
         height: auto;
     }
     .form{
         width:100%;
+        
         margin: auto;
+    }
+    .item-price{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .item-text>p {
+        font-size: 12px;
     }
  
   
