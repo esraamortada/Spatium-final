@@ -526,16 +526,16 @@ a{
 
     .pricing-container{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
         row-gap: 32px;
      }
      .pricing-card{
-        width: 45%;
+        width: 90%;
         margin: auto;
      }
-   
-    
+     .pricing-card button{
+        width: 80%;
+     }
 }
 @media  screen and (max-width: 600px){
  .pricing-container{
@@ -547,7 +547,9 @@ a{
     width: 90%;
     margin: auto;
  }
-
+ .pricing-card button{
+    width: 80%;
+ }
  .offer{
     display: flex;
     flex-direction: column;
@@ -574,7 +576,7 @@ a{
     margin: auto;
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 70px;
     /* padding: 70px 0px 0px; */
 }
 .instruction-container{
