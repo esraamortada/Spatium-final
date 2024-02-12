@@ -18,6 +18,7 @@ main{
     display: flex;
     flex-direction: column;
     row-gap: 70px;
+    background-color: aliceblue;
 }
 .hr{
     width: 70%;
@@ -65,7 +66,7 @@ nav{
     /* flex-wrap: wrap; */
 }
 .nav-list {
-    width: 60%;
+    width: 65%;
     display: flex;
   
     align-items: center;
@@ -407,11 +408,11 @@ video{
         row-gap: 32px;
     }
     .content{
-        width: 100%;
+        width: 90%;
     } 
     video{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
 
@@ -423,11 +424,11 @@ video{
         row-gap: 32px;
     }
     .content{
-        width: 100%;
+        width: 90%;
     } 
     video{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
    
@@ -441,11 +442,11 @@ video{
         row-gap: 32px;
     }
     .content{
-        width: 100%;
+        width: 90%;
     } 
     video{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
     
@@ -483,7 +484,7 @@ width: auto;
 
 }
 .logo{
-    width: 16%;
+    /* width: 16%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -806,7 +807,7 @@ width: auto;
 @media  screen and (max-width: 1200px) and (min-width:992px){
     .understand-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         row-gap: 32px;
     }
     .understand-content{
@@ -823,7 +824,7 @@ width: auto;
 @media  screen and (max-width: 992px) and (min-width:786px){
     .understand-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         row-gap: 32px;
     }
     .understand-content{
@@ -843,7 +844,7 @@ width: auto;
 
     .understand-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         row-gap: 32px;
     }
     .understand-content{
@@ -860,7 +861,7 @@ width: auto;
 @media  screen and (max-width: 600px){
     .understand-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         row-gap: 32px;
     }
     .understand-content{
@@ -908,7 +909,7 @@ width: auto;
 }
 .make-content p{
     color: rgb(165, 160, 160);
-    line-height: 26px;
+    line-height: 30px;
 }
 .make-link{
     display: flex;
@@ -927,7 +928,7 @@ width: auto;
 }
 .img1{
     width: 95%;
-    
+    height: 280px;
     border-radius: 10px;
 }
 .img2{
@@ -1036,6 +1037,7 @@ width: auto;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+    
 }
 .pricing-header{
     display: flex;
@@ -1093,7 +1095,7 @@ width: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
-    padding: 20px 30px;
+    padding: 30px 40px;
     display: flex;
     flex-direction: column;
     row-gap: 26px;
@@ -1188,7 +1190,7 @@ width: auto;
     row-gap: 32px;
  }
  .pricing-card{
-    width: 90%;
+    width: 100%;
     margin: auto;
     transition: width 2s;
  }
