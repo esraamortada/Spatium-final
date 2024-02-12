@@ -20,7 +20,7 @@ main{
     row-gap: 70px;
 }
 .hr{
-    width: 80%;
+    width: 70%;
     height: 1px;
     margin: auto;
     background-color: rgb(201, 201, 201);
@@ -43,7 +43,7 @@ nav{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     margin: auto;
    
 
@@ -99,34 +99,6 @@ a{
     text-decoration: none;
     color:  rgb(240, 237, 237);
 }
-/* .pages-list{
-
-    display: none;
-    position: absolute;
-        
-    top: 70px;
-    right: 500px;
-    border-radius: 5px;
-    width: 200px;
-    
-    
-
-   
-    z-index: 1;
-    background-color: rgb(240, 237, 237);
-    
-
-}
-.pages-list ul{
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
-    list-style-type: none;
-
-}
-.pages-list ul li a{
-    color: rgb(0, 0, 0);
-} */
 
 @media  screen and (max-width: 1200px) and (min-width:992px){
    
@@ -499,7 +471,7 @@ video{
 /*logosssssssssssssssssssssssssssss*/
 
 .logos{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -507,7 +479,7 @@ video{
 }
 .logo img{
     /* width: 80%; */
-
+width: auto;
 
 }
 .logo{
@@ -527,7 +499,7 @@ video{
         margin: auto;
     }
     .logo{
-        width: 40%;
+        width: 30%;
         margin: auto;
      
     }
@@ -557,7 +529,7 @@ video{
         margin: auto;
     }
     .logo{
-        width: 30%;
+        width: 40%;
         margin: auto;
      
     }
@@ -581,7 +553,7 @@ video{
 /*instructionsssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
 
 .instructions{
-    width: 80%;
+    width: 70%;
     margin: auto;
     /* padding: 70px 0px 0px; */
 }
@@ -715,11 +687,12 @@ video{
         row-gap: 32px;
     }
     .track-content{
-        width: 100%;
+        width: 90%;
+        padding: 0px;
     } 
     .track img{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
 
@@ -731,11 +704,12 @@ video{
         row-gap: 32px;
     }
     .track-content{
-        width: 100%;
+        width: 90%;
+        padding: 0px;
     } 
     .track img{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
    
@@ -749,11 +723,12 @@ video{
         row-gap: 32px;
     }
     .track-content{
-        width: 100%;
+        width: 90%;
+        padding: 0px;
     } 
     .track img{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
     
@@ -766,11 +741,12 @@ video{
     }
     .track-content{
         width: 100%;
+        padding: 0px;
     } 
     .track img{
         width: 100%;
         transition: width 1s;
-        margin: auto;
+        /* margin: auto; */
     }
 
 
@@ -834,12 +810,12 @@ video{
         row-gap: 32px;
     }
     .understand-content{
-        width: 100%;
+        width: 90%;
         padding: 0px;
     } 
     .understand img{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
 
@@ -851,12 +827,12 @@ video{
         row-gap: 32px;
     }
     .understand-content{
-        width: 100%;
+        width: 90%;
         padding: 0px;
     } 
     .understand img{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
 
@@ -871,12 +847,12 @@ video{
         row-gap: 32px;
     }
     .understand-content{
-        width: 100%;
+        width: 90%;
         padding: 0px;
     } 
     .understand img{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
     
@@ -976,11 +952,11 @@ video{
         row-gap: 32px;
     }
     .make-content{
-        width: 100%;
+        width: 90%;
     } 
     .imgs-container{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
 
@@ -992,11 +968,11 @@ video{
         row-gap: 32px;
     }
     .make-content{
-        width: 100%;
+        width: 90%;
     } 
     .imgs-container{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
    
@@ -1010,11 +986,11 @@ video{
         row-gap: 32px;
     }
     .make-content{
-        width: 100%;
+        width: 90%;
     } 
     .imgs-container{
         width: 90%;
-        margin: auto;
+        /* margin: auto; */
     }
 
     
@@ -1030,7 +1006,7 @@ video{
 
     } 
     .imgs-container{
-        width: 90%;
+        width: 100%;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -1155,7 +1131,7 @@ video{
 }
 .pricing-card li{
     display: flex;
-    column-gap: 12px;
+    column-gap: 16px;
 }
 .pricing-card li i{
     font-size: 18px;
@@ -1339,7 +1315,7 @@ footer{
 
     display: flex;
 
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding-bottom: 70px;
     /* justify-content: center; */
@@ -1458,7 +1434,7 @@ footer{
     
     margin: auto;
     padding: 15px 0px;
-    width: 80%;
+    width: 70%;
     justify-content: space-between;
 }
 .social-icons{
