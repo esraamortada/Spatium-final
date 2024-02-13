@@ -385,9 +385,20 @@ a{
 .item2{
    padding: 20px 0px;
    display: flex;
-   justify-content: space-between;
-   width: 85%;
+   justify-content: space-around;
+   width: 90%;
+   margin: auto;
 
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .item2 p{
@@ -408,7 +419,7 @@ a{
     font-size: 36px;
 }
 .cart-item{
-    width: 100%;
+    width: 90%;
     margin: auto;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -416,12 +427,13 @@ a{
     display: flex;
     column-gap: 16px;
     align-items: center;
-    padding: 15px;
-    /* justify-content: space-between ; */
+    padding: 20px;
+    text-align: center;
+    /* justify-content: space-around ; */
   }
   .cart-item img{
-      width: 60px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
       border-radius: 5px;
   }
   
@@ -429,14 +441,21 @@ a{
       display: flex;
    justify-content: space-between;
       width: 90%;
-      align-items: center;
+      align-items: flex-end;
    
       
   }
-  .item-text>p{
-      font-size: 18px;
-      font-weight: 900;
+  .item-text .name{
+   row-gap: 55px;
   }
+  .cart-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
   .item-price{
       display: flex;
       justify-content: space-between;
@@ -447,31 +466,33 @@ a{
 
 .quantity input{
     width: 40px;
-    height: 30px;
+    height: 22px;
     border: 1px solid rgb(223, 221, 221);
 border-radius: 3px;
 }
 .quantity {
     display: flex;
     align-items: center;
-    width: 25%;
+    /* width: 25%; */
     column-gap: 16px;
 }
 
 .plus{
     width: 30px;
-    height: 25px;
+    height: 22px;
     border-radius: 50%;
     background-color: rgb(176, 171, 171);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.item-text p{
+    font-size: 18px;
+}
 
 .cart-item i{
     color: rgb(199, 199, 199);
-    font-size: 14px;
+    font-size: 16px;
    
 }
 .cart-container{
@@ -480,6 +501,7 @@ border-radius: 3px;
     flex-direction: column;
     row-gap: 12px;
 }
+
 
 /*oder formmmmmmmmmmmmmm*/
 
@@ -557,6 +579,8 @@ border-radius: 3px;
 .orders-container{
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin: auto;
 }
 
 
@@ -567,24 +591,23 @@ border-radius: 3px;
 }
 @media  screen and (max-width: 992px) and (min-width:786px) {
 
-    .item2{
-        display: none;
-    }
-  
-}
-@media  screen and (max-width: 786px) and (min-width:600px) {
     .cart-item{
         display: flex;
         flex-direction: column;
-        row-gap: 16px;
+        
+        row-gap:20px;
+    }
+    .name{
+        row-gap: 12px;
     }
     .item-text{
         display: flex;
         flex-direction: column;
-        row-gap: 16px;
+        row-gap: 20px;
+        align-items: center;
     }
     .quantity{
-        width: 100%;
+       
        display: flex;
        justify-content: center;
     }
@@ -600,25 +623,66 @@ border-radius: 3px;
     .orders-container>button{
         margin: auto;
     }
-    .item2{
-        display: none;
+    .item-text .name {
+        row-gap: 16px;
     }
-
+}
+@media  screen and (max-width: 786px) and (min-width:600px) {
+    .cart-item{
+        display: flex;
+        flex-direction: column;
+        
+        row-gap:20px;
+    }
+    .name{
+        row-gap: 12px;
+    }
+    .item-text{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+    .quantity{
+       
+       display: flex;
+       justify-content: center;
+    }
+    .order-form{
+        width: 100%;
+    }
+    .orders-container{
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 32px;
+        margin: auto;
+    }
+    .orders-container>button{
+        margin: auto;
+    }
+    .item-text .name {
+        row-gap: 16px;
+    }
 }
 @media  screen and (max-width: 600px){
   
     .cart-item{
         display: flex;
         flex-direction: column;
-        row-gap: 16px;
+        
+        row-gap:20px;
+    }
+    .name{
+        row-gap: 12px;
     }
     .item-text{
         display: flex;
         flex-direction: column;
-        row-gap: 16px;
+        row-gap: 20px;
+        align-items: center;
     }
     .quantity{
-        width: 100%;
+       
        display: flex;
        justify-content: center;
     }
@@ -634,8 +698,8 @@ border-radius: 3px;
     .orders-container>button{
         margin: auto;
     }
-    .item2{
-        display: none;
+    .item-text .name {
+        row-gap: 16px;
     }
   
 }

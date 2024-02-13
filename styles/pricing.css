@@ -378,6 +378,7 @@ a{
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+    
 }
 .pricing-header{
     display: flex;
@@ -435,7 +436,7 @@ a{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
-    padding: 20px 30px;
+    padding: 30px 40px;
     display: flex;
     flex-direction: column;
     row-gap: 26px;
@@ -473,7 +474,7 @@ a{
 }
 .pricing-card li{
     display: flex;
-    column-gap: 12px;
+    column-gap: 16px;
 }
 .pricing-card li i{
     font-size: 18px;
@@ -530,7 +531,7 @@ a{
     row-gap: 32px;
  }
  .pricing-card{
-    width: 90%;
+    width: 100%;
     margin: auto;
     transition: width 2s;
  }
@@ -557,7 +558,7 @@ a{
 }
 
 .instructions{
-    width: 75%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -568,7 +569,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     row-gap: 32px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .instruction{
     width: 30%;
@@ -625,7 +626,7 @@ a{
         row-gap: 40px;
     }
     .instruction{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
@@ -639,8 +640,11 @@ a{
         row-gap: 40px;
     }
     .instruction{
-        width: 90%;
+        width: 100%;
         margin: auto;
+    }
+    .instruction-text h4 {
+        font-size: 20px;
     }
 
 }

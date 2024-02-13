@@ -445,7 +445,7 @@ padding: 300px 0px;
 /* why to jion usssssssssssss*/
 
 .why{
-    width: 75%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -472,7 +472,7 @@ padding: 300px 0px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 40px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .item{
     width: 28%;
@@ -557,10 +557,10 @@ padding: 300px 0px;
     background-color: rgb(255, 255, 255);
     border-radius: 7px;
     box-shadow: 0px 4px 8px 0px rgba(146, 146, 146, 0.2);
-    padding: 20px 40px;
+    padding: 20px 20px;
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 75%;
     margin: auto;
 }
 .job:hover i{
@@ -576,7 +576,7 @@ padding: 300px 0px;
 
 .job-text{
     display: flex;
-    width: 80%;
+    width: 60%;
     flex-direction: column;
     row-gap: 16px;
 }
@@ -610,8 +610,8 @@ padding: 300px 0px;
 }
 @media  screen and (max-width: 600px){
     .job{
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         row-gap: 22px;
     }
 }
